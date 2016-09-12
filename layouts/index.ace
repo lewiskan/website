@@ -1,0 +1,70 @@
+= doctype html
+html lang={{.Site.LanguageCode}}
+  head 
+    {{partial "meta.html" .}}
+    title {{.Site.Title}}
+    {{partial "css.includes.html" .}}
+    {{partial "js.includes.html" .}}
+  body
+    {{partial "navbar.html" .}}
+    .container-fluid
+      .row
+        img.hn-jumbotron-logo.center-block src={{.Site.Params.assets.textlogo}}
+      .col-xs-12.col-sm-9.col-md-9.col-lg-9
+        .landing-feature-2.text-left
+        .container style="text-align: center;"
+          .row
+            .col-sm-9
+              h2 {{.Site.Params.tagline}}
+          .row
+            .col-sm-3
+              h3  Apache Storm
+              p Existing <a href="http://storm.apache.org/">Apache Storm</a> implemented with stand-alone cluster, Mesos, or other schedulers.
+            .col-sm-3
+              h3 Heron
+              p Upgrade migration from Apache Storm and installation, optimization and customization for open source <a href="http://heronstreaming.io">Heron</a> 
+            .col-sm-3
+              h3 Apache Spark Streaming
+              p Support and migration for low latency <a href="http://spark.apache.org/streaming/">Spark Streaming</a> 
+          .row
+            .col-sm-9
+              h2 Industry Support
+          .row
+            .col-sm-3
+              h3  Financial
+              p Heron support for realtime analytics and investment edge.
+            .col-sm-3
+              h3 IoT/IoE
+              p Realtime analytics for Industrial Internet of Things, Internet of Everything. Smart Cities, Energy, Autonomous Vehicle integration and optimization.
+            .col-sm-3
+              h3 Healthcare
+              p Edge Analytics for realtime and continous health monitoring.
+          .row 
+            .col-sm-4.5
+              h2 Join HeronUsers Slack 
+              a.btn.btn-primary href=https://heronusers.herokuapp.com/ Join Slack
+            .col-sm-5
+              h2 HeronUsers Slack 
+              a.btn.btn-primary href=https://heronusers.slack.com GoTo Slack
+          .row 
+            .col-sm-9
+              h2 About Streamlio
+              a href=docs/team/contact Contact
+      .hn-twitter-feed.hidden-xs.col-sm-3.col-md-3.col-lg-3
+        {{partial "index/feed.html" .}}    
+      .landing-feature-1
+        .container style="text-align: center;"
+      .hn-twitter-feed.hidden-xs.col-sm-3.col-md-3.col-lg-3
+       {{partial "index/twitter-timeline.html" .}}
+    .footer
+      .container
+        .row
+          .col-lg-12
+            .text-muted 
+              p © 2016 Streamlio | info@streaml.io
+      script src=http://code.jquery.com/jquery-2.2.1.min.js
+      script src=/js/app.min.js
+
+
+
+

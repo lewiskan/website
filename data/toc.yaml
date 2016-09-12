@@ -1,0 +1,7 @@
+sections:
+  - name: Streamlio Team
+    sublinks:
+      - name: Team
+        url: /docs/team/team
+      - name: Contact
+        url: /docs/team/contact
