@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://lewiskan.github.io/website/public/</loc>
+    <loc>https://lewiskan.github.io/website/public/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://lewiskan.github.io/website/public/docs/team/contact/</loc>
+    <loc>https://lewiskan.github.io/website/public/docs/team/contact/</loc>
   </url>
   
   <url>
-    <loc>http://lewiskan.github.io/website/public/docs/team/team/</loc>
+    <loc>https://lewiskan.github.io/website/public/docs/team/team/</loc>
   </url>
   
 </urlset>

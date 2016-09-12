@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on streamlio</title>
-    <link>http://lewiskan.github.io/website/public/docs/</link>
+    <link>https://lewiskan.github.io/website/public/docs/</link>
     <description>Recent content in Docs on streamlio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://lewiskan.github.io/website/public/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lewiskan.github.io/website/public/docs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contact</title>
-      <link>http://lewiskan.github.io/website/public/docs/team/contact/</link>
+      <link>https://lewiskan.github.io/website/public/docs/team/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://lewiskan.github.io/website/public/docs/team/contact/</guid>
+      <guid>https://lewiskan.github.io/website/public/docs/team/contact/</guid>
       <description>&lt;p&gt;info@streaml.io&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Streamlio Team</title>
-      <link>http://lewiskan.github.io/website/public/docs/team/team/</link>
+      <link>https://lewiskan.github.io/website/public/docs/team/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://lewiskan.github.io/website/public/docs/team/team/</guid>
+      <guid>https://lewiskan.github.io/website/public/docs/team/team/</guid>
       <description>&lt;p&gt;info@streaml.io&lt;/p&gt;
 </description>
     </item>
